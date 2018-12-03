@@ -1,0 +1,44 @@
+.fancy {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 220px;
+    height: 150px;
+    padding: 78px 0.5em 0 0em;
+    margin: 0 100px;
+    position: relative;
+    background-color: #a4c9cf;
+    border-radius: 100% 100% 0 0;
+    font-size: 1.1em;
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        background-color: #a4c9cf;
+        border-radius: 100%;
+    }
+    &::before {
+        width: 125px;
+        height: 125px;
+        left: -80px;
+        border-bottom-right-radius: 0;
+    }
+    &::after {
+        width: 100px;
+        height: 100px;
+        right: -60px;
+        border-bottom-left-radius: 0;
+    }
+    &.fadeIn {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 1s linear;
+    }
+    &.fadeOut {
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 1s 1s, opacity 1s linear;
+    }
+}
