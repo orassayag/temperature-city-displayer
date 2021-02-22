@@ -4,7 +4,7 @@
     "color-no-invalid-hex": true,
     "declaration-colon-space-after": "always",
     "max-empty-lines": 1,
-    "unit-whitelist": ["em", "rem", "%", "s", "px", "ms", "deg", "dpi", "cm"],
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "ms", "deg", "dpi", "cm", "vh"],
     "declaration-block-trailing-semicolon": "always",
     "unit-case": "lower",
     "color-hex-length": "long",

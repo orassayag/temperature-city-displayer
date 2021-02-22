@@ -66,7 +66,7 @@ class TemperatureDisplayerContainer extends Component {
 
         return (
             <TemperatureDisplayer display={state.display}
-            cityName={state.currentCity.cityName}
+                cityName={state.currentCity.cityName}
                 temperature={state.currentCity.temperature} />
         );
     }
