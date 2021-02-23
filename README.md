@@ -1,6 +1,6 @@
-# Temperature city displayer
+# Temperature City Displayer
 
-Built in November 2018. React.js application with API call to https://home.openweathermap.org/ to display random cities temperature.
+Built in November 2018. A React.js application with API call to https://home.openweathermap.org/ to display random cities temperature.
 
 ## Getting Started
 
