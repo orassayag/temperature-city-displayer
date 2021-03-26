@@ -20,14 +20,14 @@ class TemperatureDisplayerContainer extends Component {
         const self = this;
         const { state } = this;
 
-        // Get random city name, different from last display.
+        // Get a random city name, different from last display.
         let selectedCity = textUtils.getRandomNumber(0, state.temperatureCitiesArray.length);
         while (selectedCity === state.currentCityIndex) {
             selectedCity = textUtils.getRandomNumber(0, state.temperatureCitiesArray.length);
         }
         this.setState({ currentCityIndex: selectedCity });
 
-        // Check if data already fetched from API. If not, fetch and save in state array to save next time call.
+        // Check if the data already fetched from API. If not, fetch and save the data in a state array to save next time call.
         if (state.temperatureCitiesArray[selectedCity].temperature) {
             this.setState({ currentCity: state.temperatureCitiesArray[selectedCity], display: true });
             this.changeCityHandler();

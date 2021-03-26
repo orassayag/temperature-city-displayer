@@ -18,7 +18,7 @@ const TemperatureDisplayer = (props) => {
     );
 };
 
-// Set the PropTypes validations and default values.
+// Set the PropTypes validators and default values.
 TemperatureDisplayer.propTypes = propTypes;
 TemperatureDisplayer.defaultProps = defaultProps;
 

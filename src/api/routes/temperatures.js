@@ -1,7 +1,7 @@
 import axios from 'axios';
 import settings from '../../settings/settings';
 
-// Handle the call to the API to get temperature data by city name
+// Handle the call to the API to get the temperature data by city name.
 export const getTemperatureDataByCityName = (cityName) => {
     return new Promise((resolve, reject) => {
         try {
