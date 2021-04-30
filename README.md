@@ -13,7 +13,7 @@ Steps to view the solution:
 
 ### Prerequisites
 
-You'll need to install VS Code, Node, and clone the project, run npm i + node index.js
+You'll need to install VSCode, Node, and clone the project, run npm i + node index.js
 
 ## Built With
 
