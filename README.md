@@ -6,18 +6,18 @@ Built in November 2018. A React.js application with API call to https://home.ope
 
 Clone the project to your computer.
 Steps to view the solution:
-1. Open server project on IDE (I used VS CODE).
+1. Open server project on IDE (I used VSCode).
 2. In the terminal: npm i.
 3. In the terminal: npm start.
 4. Happy testing! :)
 
 ### Prerequisites
 
-You'll need to install VSCode, Node, and clone the project, run npm i + node index.js
+You'll need to install VSCode, Node, and clone the project, and in the terminal: run npm i + node index.js.
 
 ## Built With
 
-* [React.JS](https://reactjs.org/) - The web framework used - client side.
+* [React.js](https://reactjs.org/) - The web framework used - Client side.
 
 ## Contributing
 
@@ -33,7 +33,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * Or Assayag <orassayag@gmail.com>
 * GitHub: https://github.com/orassayag
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://il.linkedin.com/in/orassayag
+* LinkedIn: https://linkedin.com/in/orassayag
 
 ## License
 
