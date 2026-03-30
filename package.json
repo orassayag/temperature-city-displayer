@@ -1,11 +1,34 @@
 {
   "name": "temperature-city-displayer",
   "version": "0.1.0",
+  "description": "A React.js web application that displays real-time temperature data from cities around the world using the OpenWeatherMap API with automatic cycling and smooth animations",
+  "keywords": [
+    "react",
+    "weather",
+    "temperature",
+    "openweathermap",
+    "api",
+    "axios",
+    "cities",
+    "real-time",
+    "animation",
+    "web-app"
+  ],
+  "author": {
+    "name": "Or Assayag",
+    "email": "orassayag@gmail.com",
+    "url": "https://github.com/orassayag"
+  },
+  "license": "MIT",
   "private": false,
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/temperature-city-displayer.git"
   },
+  "bugs": {
+    "url": "https://github.com/orassayag/temperature-city-displayer/issues"
+  },
+  "homepage": "https://github.com/orassayag/temperature-city-displayer#readme",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
